@@ -166,6 +166,16 @@ img {
 .page-default {
   color: var(--accent-color);
 }
+.page-default::after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 78px;
+  height: 4px;
+  background: var(--accent-color);
+  border-radius: 2px;
+  margin-top: 28px;
+}
 .mail,
 .tel {
   list-style: none;
